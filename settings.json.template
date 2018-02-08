@@ -33,9 +33,9 @@
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "ciquidus",
-    "password": "3xp!0reR",
-    "database": "explorerdb",
+    "user": "cscolbduser",
+    "password": "JuanPablo1*!",
+    "database": "eexplodbscol",
     "address": "localhost",
     "port": 27017
   },
