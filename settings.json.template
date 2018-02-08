@@ -10,10 +10,10 @@
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Chaincoin",
+  "coin": "Scolcoin",
 
   // coin symbol
-  "symbol": "CHC",
+  "symbol": "SCOL",
 
   // logo
   "logo": "/images/chain_dark-128x128.png",
@@ -46,10 +46,10 @@
 
   // wallet settings
   "wallet": {
-    "host": "localhost",
-    "port": 11995,
-    "user": "chaincoinrpc",
-    "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+    "host": "127.0.0.1",
+    "port": 4210,
+    "user": "rpc_user",
+    "pass": "8cde5e64e7297b1cb4c495d1a"
   },
 
   // confirmations
@@ -78,16 +78,16 @@
   // index page (valid options for difficulty are POW, POS or Hybrid)
   "index": {
     "show_hashrate": true,
-    "difficulty": "POW",
+    "difficulty": "POS",
     "last_txs": 100
   },
 
   // ensure links on API page are valid
   "api": {
-    "blockindex": 1337,
-    "blockhash": "00000000001b8c30360db57b575b3c2bf668b0ed50683f567afd47ae1773efb8",
-    "txhash": "285feead54e322aa69f649c4078766171df358a12f5f1517d61f303780e25511",
-    "address": "CaxX1HVWzbQ516w61XbtHR63vNmp2mvLMZ"
+    "blockindex": 49759,
+    "blockhash": "e691507a559a6ce3e69a7d336224f19190e114157dd49298ceb9a2423b504a75",
+    "txhash": "bd9c50ff462d7107a53c292b85a6d517ad711272505378ba7ac2c43b2d323e1a",
+    "address": "RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb"
   },
 
   // market settings
@@ -129,8 +129,8 @@
   "website": "yourfullwebsiteurl",
 
   //genesis
-  "genesis_tx": "fa6ef9872494fa9662cf0fecf8c0135a6932e76d7a8764e1155207f3205c7c88",
-  "genesis_block": "00000f639db5734b2b861ef8dbccc33aebd7de44d13de000a12d093bcc866c64",
+  "genesis_tx": "efbbac66d755b85cdfaa7d47da850e2a3c6b14f7da363f7f31cf13ea8a0f8e39",
+  "genesis_block": "00000aa2ce62bac15c8b18cf24dd7b2c62c7e5d9be1d170171bffc679f9689e0",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
